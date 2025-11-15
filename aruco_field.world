@@ -1,0 +1,3012 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="aruco_marker_0">
+      <static>true</static>
+      <pose>0.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_000.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_1">
+      <static>true</static>
+      <pose>1.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_001.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_2">
+      <static>true</static>
+      <pose>2.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_002.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_3">
+      <static>true</static>
+      <pose>3.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_003.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_4">
+      <static>true</static>
+      <pose>4.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_004.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_5">
+      <static>true</static>
+      <pose>5.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_005.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_6">
+      <static>true</static>
+      <pose>6.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_006.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_7">
+      <static>true</static>
+      <pose>7.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_007.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_8">
+      <static>true</static>
+      <pose>8.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_008.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_9">
+      <static>true</static>
+      <pose>9.0 0.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_009.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_10">
+      <static>true</static>
+      <pose>0.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_010.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_11">
+      <static>true</static>
+      <pose>1.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_011.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_12">
+      <static>true</static>
+      <pose>2.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_012.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_13">
+      <static>true</static>
+      <pose>3.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_013.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_14">
+      <static>true</static>
+      <pose>4.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_014.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_15">
+      <static>true</static>
+      <pose>5.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_015.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_16">
+      <static>true</static>
+      <pose>6.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_016.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_17">
+      <static>true</static>
+      <pose>7.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_017.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_18">
+      <static>true</static>
+      <pose>8.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_018.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_19">
+      <static>true</static>
+      <pose>9.0 1.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_019.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_20">
+      <static>true</static>
+      <pose>0.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_020.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_21">
+      <static>true</static>
+      <pose>1.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_021.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_22">
+      <static>true</static>
+      <pose>2.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_022.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_23">
+      <static>true</static>
+      <pose>3.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_023.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_24">
+      <static>true</static>
+      <pose>4.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_024.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_25">
+      <static>true</static>
+      <pose>5.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_025.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_26">
+      <static>true</static>
+      <pose>6.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_026.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_27">
+      <static>true</static>
+      <pose>7.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_027.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_28">
+      <static>true</static>
+      <pose>8.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_028.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_29">
+      <static>true</static>
+      <pose>9.0 2.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_029.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_30">
+      <static>true</static>
+      <pose>0.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_030.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_31">
+      <static>true</static>
+      <pose>1.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_031.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_32">
+      <static>true</static>
+      <pose>2.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_032.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_33">
+      <static>true</static>
+      <pose>3.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_033.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_34">
+      <static>true</static>
+      <pose>4.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_034.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_35">
+      <static>true</static>
+      <pose>5.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_035.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_36">
+      <static>true</static>
+      <pose>6.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_036.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_37">
+      <static>true</static>
+      <pose>7.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_037.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_38">
+      <static>true</static>
+      <pose>8.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_038.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_39">
+      <static>true</static>
+      <pose>9.0 3.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_039.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_40">
+      <static>true</static>
+      <pose>0.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_040.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_41">
+      <static>true</static>
+      <pose>1.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_041.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_42">
+      <static>true</static>
+      <pose>2.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_042.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_43">
+      <static>true</static>
+      <pose>3.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_043.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_44">
+      <static>true</static>
+      <pose>4.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_044.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_45">
+      <static>true</static>
+      <pose>5.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_045.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_46">
+      <static>true</static>
+      <pose>6.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_046.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_47">
+      <static>true</static>
+      <pose>7.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_047.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_48">
+      <static>true</static>
+      <pose>8.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_048.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_49">
+      <static>true</static>
+      <pose>9.0 4.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_049.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_50">
+      <static>true</static>
+      <pose>0.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_050.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_51">
+      <static>true</static>
+      <pose>1.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_051.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_52">
+      <static>true</static>
+      <pose>2.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_052.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_53">
+      <static>true</static>
+      <pose>3.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_053.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_54">
+      <static>true</static>
+      <pose>4.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_054.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_55">
+      <static>true</static>
+      <pose>5.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_055.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_56">
+      <static>true</static>
+      <pose>6.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_056.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_57">
+      <static>true</static>
+      <pose>7.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_057.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_58">
+      <static>true</static>
+      <pose>8.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_058.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_59">
+      <static>true</static>
+      <pose>9.0 5.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_059.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_60">
+      <static>true</static>
+      <pose>0.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_060.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_61">
+      <static>true</static>
+      <pose>1.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_061.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_62">
+      <static>true</static>
+      <pose>2.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_062.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_63">
+      <static>true</static>
+      <pose>3.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_063.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_64">
+      <static>true</static>
+      <pose>4.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_064.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_65">
+      <static>true</static>
+      <pose>5.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_065.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_66">
+      <static>true</static>
+      <pose>6.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_066.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_67">
+      <static>true</static>
+      <pose>7.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_067.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_68">
+      <static>true</static>
+      <pose>8.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_068.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_69">
+      <static>true</static>
+      <pose>9.0 6.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_069.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_70">
+      <static>true</static>
+      <pose>0.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_070.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_71">
+      <static>true</static>
+      <pose>1.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_071.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_72">
+      <static>true</static>
+      <pose>2.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_072.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_73">
+      <static>true</static>
+      <pose>3.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_073.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_74">
+      <static>true</static>
+      <pose>4.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_074.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_75">
+      <static>true</static>
+      <pose>5.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_075.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_76">
+      <static>true</static>
+      <pose>6.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_076.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_77">
+      <static>true</static>
+      <pose>7.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_077.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_78">
+      <static>true</static>
+      <pose>8.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_078.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_79">
+      <static>true</static>
+      <pose>9.0 7.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_079.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_80">
+      <static>true</static>
+      <pose>0.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_080.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_81">
+      <static>true</static>
+      <pose>1.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_081.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_82">
+      <static>true</static>
+      <pose>2.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_082.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_83">
+      <static>true</static>
+      <pose>3.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_083.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_84">
+      <static>true</static>
+      <pose>4.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_084.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_85">
+      <static>true</static>
+      <pose>5.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_085.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_86">
+      <static>true</static>
+      <pose>6.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_086.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_87">
+      <static>true</static>
+      <pose>7.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_087.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_88">
+      <static>true</static>
+      <pose>8.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_088.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_89">
+      <static>true</static>
+      <pose>9.0 8.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_089.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_90">
+      <static>true</static>
+      <pose>0.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_090.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_91">
+      <static>true</static>
+      <pose>1.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_091.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_92">
+      <static>true</static>
+      <pose>2.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_092.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_93">
+      <static>true</static>
+      <pose>3.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_093.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_94">
+      <static>true</static>
+      <pose>4.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_094.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_95">
+      <static>true</static>
+      <pose>5.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_095.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_96">
+      <static>true</static>
+      <pose>6.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_096.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_97">
+      <static>true</static>
+      <pose>7.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_097.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_98">
+      <static>true</static>
+      <pose>8.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_098.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="aruco_marker_99">
+      <static>true</static>
+      <pose>9.0 9.0 0.0 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <shader type="pixel"/>
+            <texture>
+              <filename>file:///home/clover/aruco_field/worlds/aruco_images/aruco_099.png</filename>
+            </texture>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.3 0.001</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+  </world>
+</sdf>
