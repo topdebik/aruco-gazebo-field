@@ -1,0 +1,16 @@
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="/home/clover/aruco-gazebo-field/aruco_field.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro '$(find my_clover_description)/urdf/clover4_with_camera.urdf.xacro'"/>
+  
+  <node name="spawn_clover" pkg="gazebo_ros" type="spawn_model" 
+        args="-urdf -param robot_description -model clover4 -x 0 -y 0 -z 1.0"
+        respawn="false" output="screen" />
+</launch>

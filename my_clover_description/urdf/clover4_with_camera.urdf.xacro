@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<robot name="clover4" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Import base Clover model -->
+  <xacro:include filename="$(find clover_description)/urdf/clover/clover4.xacro" />
+
+  <!-- Front camera -->
+  <link name="front_camera_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.03 0.02"/>
+      </geometry>
+      <material name="camera_plastic">
+        <color rgba="0.3 0.3 0.3 1"/>
+      </material>
+    </visual>
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="front_camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front_camera_link"/>
+    <origin xyz="0.1 0 0.02" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Gazebo plugin for camera -->
+  <gazebo reference="front_camera_link">
+    <sensor type="camera" name="front_camera">
+      <update_rate>30.0</update_rate>
+      <camera name="front">
+        <horizontal_fov>1.047</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>300</far>
+        </clip>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>clover/front_camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>front_camera_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>
