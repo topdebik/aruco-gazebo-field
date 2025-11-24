@@ -4,7 +4,7 @@ def create_aruco_world_with_movement():
     # ===== КОНФИГУРАЦИЯ =====
     WORLD_NAME = "aruco_field"
     BASE_MODEL_PATH = "./aruco_models"
-    TEXTURES_SOURCE_DIR = "/home/debik/aruco-gazebo-field/textures"
+    TEXTURES_SOURCE_DIR = "./textures"
     CAR_MODEL_FILE = "cybertruck.dae"
     NUM_MARKERS = 100
     MARKER_SIZE = 0.3
@@ -69,23 +69,24 @@ def create_aruco_world_with_movement():
     </include>
 
     <model name="car">
-      <pose>5 5 0.1 0 0 0</pose>
+      <pose>5 5 0.001 0 0 0</pose>
       <link name="link">
-        <visual name="visual" cast_shadows="false">
+        <gravity>0</gravity>
+        <visual name="visual" cast_shadows="trued">
           <geometry>
             <mesh>
-              <uri>file://{os.path.abspath(CAR_MODEL_FILE)}</uri>
+              <uri>file://{CAR_MODEL_FILE}</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </visual>
       </link>
       
-      <plugin name="random_move" filename="librandom_move_plugin.so">
-        <field_width>9</field_width>
-        <field_height>9</field_height>
-        <object_width>2</object_width>
-        <object_height>2</object_height>
+      <plugin name="random_movement" filename="libRandomMovementPlugin.so">
+        <field_size_x>9</field_size_x>
+        <field_size_y>9</field_size_y>
+        <object_size_x>2.0</object_size_x>
+        <object_size_y>0.8</object_size_y>
       </plugin>
     </model>
 """
@@ -112,8 +113,8 @@ def create_aruco_world_with_movement():
           </geometry>
           <material>
             <script>
-              <uri>file://{os.path.abspath(materials_scripts_dir)}</uri>
-              <uri>file://{os.path.abspath(materials_textures_dir)}</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_{i:03d}</name>
             </script>
           </material>

@@ -8,5 +8,5 @@ g++ -std=c++17 -shared -fPIC \
     -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/transport8 \
     -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/fuel_tools4 \
     -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/msgs5 \
-    RandomMovePlugin.cpp \
-    -o librandom_move_plugin.so
+    RandomMovementPlugin.cpp \
+    -o plugins/libRandomMovementPlugin.so

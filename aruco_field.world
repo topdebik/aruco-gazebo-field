@@ -10,23 +10,24 @@
     </include>
 
     <model name="car">
-      <pose>5 5 0.1 0 0 0</pose>
+      <pose>5 5 0.001 0 0 0</pose>
       <link name="link">
-        <visual name="visual" cast_shadows="false">
+        <gravity>0</gravity>
+        <visual name="visual" cast_shadows="trued">
           <geometry>
             <mesh>
-              <uri>file:///home/debik/aruco-gazebo-field/cybertruck.dae</uri>
+              <uri>file://cybertruck.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </visual>
       </link>
       
-      <plugin name="random_move" filename="librandom_move_plugin.so">
-        <field_width>9</field_width>
-        <field_height>9</field_height>
-        <object_width>2</object_width>
-        <object_height>2</object_height>
+      <plugin name="random_movement" filename="libRandomMovementPlugin.so">
+        <field_size_x>9</field_size_x>
+        <field_size_y>9</field_size_y>
+        <object_size_x>2.0</object_size_x>
+        <object_size_y>0.8</object_size_y>
       </plugin>
     </model>
 
@@ -42,8 +43,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_000</name>
             </script>
           </material>
@@ -70,8 +71,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_001</name>
             </script>
           </material>
@@ -98,8 +99,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_002</name>
             </script>
           </material>
@@ -126,8 +127,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_003</name>
             </script>
           </material>
@@ -154,8 +155,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_004</name>
             </script>
           </material>
@@ -182,8 +183,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_005</name>
             </script>
           </material>
@@ -210,8 +211,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_006</name>
             </script>
           </material>
@@ -238,8 +239,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_007</name>
             </script>
           </material>
@@ -266,8 +267,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_008</name>
             </script>
           </material>
@@ -294,8 +295,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_009</name>
             </script>
           </material>
@@ -322,8 +323,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_010</name>
             </script>
           </material>
@@ -350,8 +351,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_011</name>
             </script>
           </material>
@@ -378,8 +379,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_012</name>
             </script>
           </material>
@@ -406,8 +407,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_013</name>
             </script>
           </material>
@@ -434,8 +435,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_014</name>
             </script>
           </material>
@@ -462,8 +463,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_015</name>
             </script>
           </material>
@@ -490,8 +491,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_016</name>
             </script>
           </material>
@@ -518,8 +519,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_017</name>
             </script>
           </material>
@@ -546,8 +547,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_018</name>
             </script>
           </material>
@@ -574,8 +575,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_019</name>
             </script>
           </material>
@@ -602,8 +603,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_020</name>
             </script>
           </material>
@@ -630,8 +631,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_021</name>
             </script>
           </material>
@@ -658,8 +659,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_022</name>
             </script>
           </material>
@@ -686,8 +687,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_023</name>
             </script>
           </material>
@@ -714,8 +715,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_024</name>
             </script>
           </material>
@@ -742,8 +743,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_025</name>
             </script>
           </material>
@@ -770,8 +771,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_026</name>
             </script>
           </material>
@@ -798,8 +799,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_027</name>
             </script>
           </material>
@@ -826,8 +827,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_028</name>
             </script>
           </material>
@@ -854,8 +855,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_029</name>
             </script>
           </material>
@@ -882,8 +883,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_030</name>
             </script>
           </material>
@@ -910,8 +911,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_031</name>
             </script>
           </material>
@@ -938,8 +939,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_032</name>
             </script>
           </material>
@@ -966,8 +967,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_033</name>
             </script>
           </material>
@@ -994,8 +995,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_034</name>
             </script>
           </material>
@@ -1022,8 +1023,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_035</name>
             </script>
           </material>
@@ -1050,8 +1051,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_036</name>
             </script>
           </material>
@@ -1078,8 +1079,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_037</name>
             </script>
           </material>
@@ -1106,8 +1107,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_038</name>
             </script>
           </material>
@@ -1134,8 +1135,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_039</name>
             </script>
           </material>
@@ -1162,8 +1163,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_040</name>
             </script>
           </material>
@@ -1190,8 +1191,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_041</name>
             </script>
           </material>
@@ -1218,8 +1219,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_042</name>
             </script>
           </material>
@@ -1246,8 +1247,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_043</name>
             </script>
           </material>
@@ -1274,8 +1275,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_044</name>
             </script>
           </material>
@@ -1302,8 +1303,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_045</name>
             </script>
           </material>
@@ -1330,8 +1331,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_046</name>
             </script>
           </material>
@@ -1358,8 +1359,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_047</name>
             </script>
           </material>
@@ -1386,8 +1387,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_048</name>
             </script>
           </material>
@@ -1414,8 +1415,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_049</name>
             </script>
           </material>
@@ -1442,8 +1443,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_050</name>
             </script>
           </material>
@@ -1470,8 +1471,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_051</name>
             </script>
           </material>
@@ -1498,8 +1499,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_052</name>
             </script>
           </material>
@@ -1526,8 +1527,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_053</name>
             </script>
           </material>
@@ -1554,8 +1555,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_054</name>
             </script>
           </material>
@@ -1582,8 +1583,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_055</name>
             </script>
           </material>
@@ -1610,8 +1611,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_056</name>
             </script>
           </material>
@@ -1638,8 +1639,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_057</name>
             </script>
           </material>
@@ -1666,8 +1667,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_058</name>
             </script>
           </material>
@@ -1694,8 +1695,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_059</name>
             </script>
           </material>
@@ -1722,8 +1723,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_060</name>
             </script>
           </material>
@@ -1750,8 +1751,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_061</name>
             </script>
           </material>
@@ -1778,8 +1779,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_062</name>
             </script>
           </material>
@@ -1806,8 +1807,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_063</name>
             </script>
           </material>
@@ -1834,8 +1835,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_064</name>
             </script>
           </material>
@@ -1862,8 +1863,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_065</name>
             </script>
           </material>
@@ -1890,8 +1891,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_066</name>
             </script>
           </material>
@@ -1918,8 +1919,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_067</name>
             </script>
           </material>
@@ -1946,8 +1947,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_068</name>
             </script>
           </material>
@@ -1974,8 +1975,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_069</name>
             </script>
           </material>
@@ -2002,8 +2003,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_070</name>
             </script>
           </material>
@@ -2030,8 +2031,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_071</name>
             </script>
           </material>
@@ -2058,8 +2059,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_072</name>
             </script>
           </material>
@@ -2086,8 +2087,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_073</name>
             </script>
           </material>
@@ -2114,8 +2115,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_074</name>
             </script>
           </material>
@@ -2142,8 +2143,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_075</name>
             </script>
           </material>
@@ -2170,8 +2171,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_076</name>
             </script>
           </material>
@@ -2198,8 +2199,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_077</name>
             </script>
           </material>
@@ -2226,8 +2227,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_078</name>
             </script>
           </material>
@@ -2254,8 +2255,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_079</name>
             </script>
           </material>
@@ -2282,8 +2283,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_080</name>
             </script>
           </material>
@@ -2310,8 +2311,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_081</name>
             </script>
           </material>
@@ -2338,8 +2339,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_082</name>
             </script>
           </material>
@@ -2366,8 +2367,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_083</name>
             </script>
           </material>
@@ -2394,8 +2395,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_084</name>
             </script>
           </material>
@@ -2422,8 +2423,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_085</name>
             </script>
           </material>
@@ -2450,8 +2451,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_086</name>
             </script>
           </material>
@@ -2478,8 +2479,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_087</name>
             </script>
           </material>
@@ -2506,8 +2507,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_088</name>
             </script>
           </material>
@@ -2534,8 +2535,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_089</name>
             </script>
           </material>
@@ -2562,8 +2563,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_090</name>
             </script>
           </material>
@@ -2590,8 +2591,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_091</name>
             </script>
           </material>
@@ -2618,8 +2619,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_092</name>
             </script>
           </material>
@@ -2646,8 +2647,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_093</name>
             </script>
           </material>
@@ -2674,8 +2675,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_094</name>
             </script>
           </material>
@@ -2702,8 +2703,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_095</name>
             </script>
           </material>
@@ -2730,8 +2731,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_096</name>
             </script>
           </material>
@@ -2758,8 +2759,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_097</name>
             </script>
           </material>
@@ -2786,8 +2787,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_098</name>
             </script>
           </material>
@@ -2814,8 +2815,8 @@
           </geometry>
           <material>
             <script>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/scripts</uri>
-              <uri>file:///home/debik/aruco-gazebo-field/aruco_models/materials/textures</uri>
+              <uri>model://aruco_models/materials/scripts</uri>
+              <uri>model://aruco_models/materials/textures</uri>
               <name>Aruco/Material_099</name>
             </script>
           </material>
