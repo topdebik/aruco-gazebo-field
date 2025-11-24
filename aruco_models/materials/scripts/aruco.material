@@ -1,0 +1,1602 @@
+// ArUco markers material definitions
+
+material Aruco/Material_000
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_000.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_001
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_001.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_002
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_002.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_003
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_003.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_004
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_004.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_005
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_005.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_006
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_006.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_007
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_007.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_008
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_008.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_009
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_009.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_010
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_010.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_011
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_011.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_012
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_012.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_013
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_013.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_014
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_014.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_015
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_015.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_016
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_016.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_017
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_017.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_018
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_018.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_019
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_019.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_020
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_020.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_021
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_021.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_022
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_022.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_023
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_023.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_024
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_024.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_025
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_025.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_026
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_026.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_027
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_027.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_028
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_028.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_029
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_029.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_030
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_030.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_031
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_031.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_032
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_032.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_033
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_033.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_034
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_034.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_035
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_035.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_036
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_036.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_037
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_037.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_038
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_038.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_039
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_039.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_040
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_040.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_041
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_041.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_042
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_042.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_043
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_043.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_044
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_044.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_045
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_045.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_046
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_046.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_047
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_047.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_048
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_048.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_049
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_049.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_050
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_050.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_051
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_051.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_052
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_052.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_053
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_053.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_054
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_054.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_055
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_055.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_056
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_056.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_057
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_057.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_058
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_058.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_059
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_059.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_060
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_060.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_061
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_061.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_062
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_062.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_063
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_063.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_064
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_064.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_065
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_065.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_066
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_066.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_067
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_067.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_068
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_068.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_069
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_069.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_070
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_070.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_071
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_071.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_072
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_072.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_073
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_073.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_074
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_074.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_075
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_075.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_076
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_076.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_077
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_077.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_078
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_078.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_079
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_079.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_080
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_080.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_081
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_081.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_082
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_082.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_083
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_083.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_084
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_084.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_085
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_085.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_086
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_086.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_087
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_087.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_088
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_088.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_089
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_089.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_090
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_090.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_091
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_091.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_092
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_092.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_093
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_093.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_094
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_094.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_095
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_095.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_096
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_096.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_097
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_097.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_098
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_098.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/Material_099
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_099.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
