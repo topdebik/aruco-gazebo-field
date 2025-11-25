@@ -5,7 +5,7 @@ def create_aruco_world_with_movement():
     WORLD_NAME = "aruco_field"
     BASE_MODEL_PATH = "./aruco_models"
     TEXTURES_SOURCE_DIR = "./textures"
-    CAR_MODEL_FILE = "cybertruck.dae"
+    CAR_MODEL_FILE = "cybertruck_new_textured.dae"
     NUM_MARKERS = 100
     MARKER_SIZE = 0.3
     SPACING = 1.0
