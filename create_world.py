@@ -1,3 +1,4 @@
+import cv2
 import os
 
 def create_aruco_world_with_movement():
@@ -48,6 +49,20 @@ def create_aruco_world_with_movement():
     with open(material_file_path, "w") as f:
         f.write(full_material_script)
 
+    # ===== ГЕНЕРАЦИЯ ТЕКСТУР =====
+    textures_dir = os.path.join("textures")
+
+    # Создаем директорию если не существует
+    os.makedirs(os.path.dirname(textures_dir) if os.path.dirname(textures_dir) else '.', exist_ok=True)
+
+    # Используем словарь 4x4
+    aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_1000)
+
+    for i in range(NUM_MARKERS):
+        marker_img = cv2.aruco.generateImageMarker(aruco_dict, i, int(MARKER_SIZE * 1e3))
+        marker_img = cv2.rotate(marker_img, cv2.ROTATE_90_COUNTERCLOCKWISE)
+        cv2.imwrite(os.path.join(textures_dir, f"aruco_{i:03d}.png"), marker_img)
+
     # ===== КОПИРОВАНИЕ ТЕКСТУР =====
     for i in range(NUM_MARKERS):
         src_texture = os.path.join(TEXTURES_SOURCE_DIR, f"aruco_{i:03d}.png")
@@ -72,7 +87,7 @@ def create_aruco_world_with_movement():
       <pose>5 5 0.001 0 0 0</pose>
       <link name="link">
         <gravity>0</gravity>
-        <visual name="visual" cast_shadows="trued">
+        <visual name="visual" cast_shadows="true">
           <geometry>
             <mesh>
               <uri>file://{CAR_MODEL_FILE}</uri>

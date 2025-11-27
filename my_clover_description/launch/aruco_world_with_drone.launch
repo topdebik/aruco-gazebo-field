@@ -1,5 +1,9 @@
 <launch>
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <env name="GAZEBO_MODEL_PATH" value="/home/debik/aruco-gazebo-field/models:/home/debik/aruco-gazebo-field/aruco_models:$(optenv GAZEBO_MODEL_PATH)"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="/home/debik/aruco-gazebo-field/textures:$(optenv GAZEBO_RESOURCE_PATH)"/>
+  <env name="GAZEBO_PLUGIN_PATH" value="/home/debik/aruco-gazebo-field/plugins:$(optenv GAZEBO_PLUGIN_PATH)"/>
+
+  <include file="/opt/ros/noetic/share/gazebo_ros/launch/empty_world.launch">
     <arg name="world_name" value="/home/debik/aruco-gazebo-field/aruco_field.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
@@ -8,9 +12,28 @@
     <arg name="debug" value="false"/>
   </include>
 
-  <param name="robot_description" command="$(find xacro)/xacro '$(find my_clover_description)/urdf/clover4_with_camera.urdf.xacro'"/>
+  <param name="robot_description" command="/opt/ros/noetic/lib/xacro/xacro '/home/debik/aruco-gazebo-field/my_clover_description/urdf/clover4_with_camera.urdf.xacro'"/>
   
   <node name="spawn_clover" pkg="gazebo_ros" type="spawn_model" 
         args="-urdf -param robot_description -model clover4 -x 0 -y 0 -z 1.0"
         respawn="false" output="screen" />
+
+  <!-- PX4 instance -->
+  <node name="sitl_0" pkg="px4" type="px4" output="screen" required="true" args="$(find px4)/ROMFS/px4fmu_common -s etc/init.d-posix/rcS -i 0" unless="$(eval type == 'none')">
+      <env name="PX4_SIM_MODEL" value="clover"/>
+      <env name="PX4_ESTIMATOR" value="ekf2"/>
+  </node>
+
+  <!-- Clover services -->
+  <include file="$(find clover)/launch/clover.launch">
+      <arg name="simulator" value="true"/>
+      <arg name="fcu_conn" value="sitl"/>
+      <arg name="fcu_ip" value="127.0.0.1"/>
+      <arg name="gcs_bridge" value=""/>
+      <arg name="web_video_server" default="false" if="$(eval type == 'jmavsim')"/>
+      <arg name="main_camera" default="false" if="$(eval type == 'jmavsim')"/>
+      <arg name="aruco" default="false" if="$(eval type == 'jmavsim')"/>
+      <arg name="optical_flow" default="false" if="$(eval type == 'jmavsim')"/>
+      <arg name="led" default="false" if="$(eval type == 'jmavsim')"/>
+  </include>
 </launch>

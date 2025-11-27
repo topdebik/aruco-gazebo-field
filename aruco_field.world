@@ -13,7 +13,7 @@
       <pose>5 5 0.001 0 0 0</pose>
       <link name="link">
         <gravity>0</gravity>
-        <visual name="visual" cast_shadows="trued">
+        <visual name="visual" cast_shadows="true">
           <geometry>
             <mesh>
               <uri>file://cybertruck_new_textured.dae</uri>
